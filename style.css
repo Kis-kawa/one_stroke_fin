@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* フォントの指定 */
+  background-color: #f0f0f0; /* 背景色の指定 */
+}
+
+canvas {
+  display: block;
+}
+
+header {
+  background-color: #FFC107;
+  color: #333;
+  padding: 10px;
+  text-align: center; /* テキストを中央揃え */
+}
+
+.bar {
+  border-bottom: 2px solid #333;
+  margin-top: 5px; /* 上部のマージンを調整して距離を詰める */
+  margin-bottom: 30px; /* 下部のマージンを設定 */
+  width: 50%;
+}
+
+main {
+  text-align: center; /* テキストを中央揃え */
+  margin-top: 25px; /* 上部のマージンを指定 */
+  display: flex; /* Flexboxを使用 */
+  flex-direction: column; /* 子要素を縦方向に配置 */
+  align-items: center; /* 子要素を水平方向に中央揃え */
+  height: 400px;
+}
+
+p {
+  font-size: 18px; /* フォントサイズの指定 */
+  line-height: 1.5; /* 行の高さを調整 */
+}
